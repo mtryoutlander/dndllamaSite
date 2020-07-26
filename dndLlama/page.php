@@ -35,6 +35,10 @@ get_header();
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
+	<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("LeftSidebar") ) : ?>
+	<?php endif;?>
+	
+
 <?php
 get_sidebar();
 get_footer();
