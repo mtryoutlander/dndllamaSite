@@ -26,10 +26,6 @@ if (is_active_sidebar('sidebar-1')) {
 
 <div id="primary" class="<?php echo esc_attr($bappi_area_class) ?>">
 
-<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("LeftSidebar") ) : ?>
-	<?php endif;?>
-	
-
 	<main id="main" class="site-main">
 
 		<?php
